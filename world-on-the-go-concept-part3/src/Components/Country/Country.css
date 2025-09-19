@@ -1,0 +1,27 @@
+.country {
+    border: 2px solid red;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.country-visited {
+    background-color: black;
+
+}
+
+.separete {
+    /* gap: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h3 {
+    color: #00b894;
+}
+
+p {
+    color: #00b894;
+}
