@@ -26,7 +26,7 @@ const Country = ({
     // 2nd.system ternery operator
     // setVisited(visited ? false : true);
 
-    // 3rd.system
+    // 3rd.system with easiest system
     setVisited(!visited);
     handleVisitedCountries(country);
   };
