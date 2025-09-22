@@ -4,6 +4,8 @@ import Bottles from "./Components/Bottles/Bottles";
 
 const bottlesPromise = fetch("./bottles.json").then((res) => res.json());
 
+// const bottlesPromise = fetch(./bottles.json).then(res =>res.json())
+
 function App() {
   // const bottles = [
   //   {
@@ -34,7 +36,11 @@ function App() {
 
   return (
     <>
-      <h1>Buy Awesome Water Bottle</h1>
+      <h1>Buy Awesome Water Bottle Best</h1>
+      {/* <Suspense fallback={<h2>Bottles are Loading Wait!!....</h2>}>
+        <Bottles bottlesPromise={bottlesPromise}></Bottles>
+      </Suspense> */}
+
       <Suspense fallback={<h2>Bottles are Loading Wait!!....</h2>}>
         <Bottles bottlesPromise={bottlesPromise}></Bottles>
       </Suspense>

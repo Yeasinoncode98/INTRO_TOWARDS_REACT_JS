@@ -16,3 +16,19 @@ const Bottle = ({ bottle, handleAddTocart }) => {
 };
 
 export default Bottle;
+
+// import React from "react";
+// import "./bottle.css";
+// const Bottle = ({ bottle }) => {
+//   return (
+//     <div className="card bottle">
+//       <img src={bottle.img} alt="" />
+//       <p>{bottle.name}</p>
+//       <p>${bottle.price}</p>
+//       <p>{bottle.seller}</p>
+//       <p>Available In Stock : {bottle.stock} </p>
+//     </div>
+//   );
+// };
+
+// export default Bottle;
