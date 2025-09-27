@@ -1,0 +1,92 @@
+[
+  {
+    "student_id": 1,
+    "name": "Alice",
+    "marks": {
+      "physics": 85,
+      "chemistry": 78,
+      "math": 92
+    }
+  },
+  {
+    "student_id": 2,
+    "name": "Bob",
+    "marks": {
+      "physics": 74,
+      "chemistry": 88,
+      "math": 81
+    }
+  },
+  {
+    "student_id": 3,
+    "name": "Charlie",
+    "marks": {
+      "physics": 90,
+      "chemistry": 82,
+      "math": 87
+    }
+  },
+  {
+    "student_id": 4,
+    "name": "David",
+    "marks": {
+      "physics": 65,
+      "chemistry": 72,
+      "math": 70
+    }
+  },
+  {
+    "student_id": 5,
+    "name": "Eva",
+    "marks": {
+      "physics": 95,
+      "chemistry": 89,
+      "math": 94
+    }
+  },
+  {
+    "student_id": 6,
+    "name": "Frank",
+    "marks": {
+      "physics": 80,
+      "chemistry": 76,
+      "math": 85
+    }
+  },
+  {
+    "student_id": 7,
+    "name": "Grace",
+    "marks": {
+      "physics": 88,
+      "chemistry": 91,
+      "math": 90
+    }
+  },
+  {
+    "student_id": 8,
+    "name": "Henry",
+    "marks": {
+      "physics": 70,
+      "chemistry": 68,
+      "math": 72
+    }
+  },
+  {
+    "student_id": 9,
+    "name": "Ivy",
+    "marks": {
+      "physics": 92,
+      "chemistry": 84,
+      "math": 89
+    }
+  },
+  {
+    "student_id": 10,
+    "name": "Jack",
+    "marks": {
+      "physics": 78,
+      "chemistry": 80,
+      "math": 83
+    }
+  }
+]

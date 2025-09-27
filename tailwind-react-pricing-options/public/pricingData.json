@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Basic",
+    "price": "$19/month",
+    "id": 1,
+    "description": "Great for beginners starting their fitness journey.",
+    "features": [
+      "Access to cardio equipment",
+      "Access to weight machines",
+      "Locker room access"
+      
+    ]
+  },
+  {
+    "name": "Standard",
+    "price": "$39/month",
+    "popular": true,
+    "id": 2,
+    "description": "Perfect for regular gym-goers who want more variety.",
+    "features": [
+      "Everything in Basic",
+      "Unlimited group fitness classes",
+      "Access to free weights"
+    ]
+  },
+  {
+    "name": "Premium",
+    "price": "$59/month",
+    "id": 3,
+    "description": "Best for serious athletes and full fitness experience.",
+    "features": [
+      "Everything in Standard",
+      "Unlimited personal training sessions",
+      "Nutrition & diet consultation"
+
+    ]
+  }
+]
