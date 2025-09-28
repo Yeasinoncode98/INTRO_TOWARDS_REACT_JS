@@ -7,6 +7,7 @@ import { Divide } from "lucide-react";
 import ResultsChart from "./components/ResultsChart/ResultsChart";
 import axios from "axios";
 import MarksChart from "./components/MarksChart/MarksChart";
+import PlayerRuns from "./components/PlayerRuns.jsx/PlayerRuns";
 
 const pricingPromise = fetch("pricingData.json").then((res) => res.json());
 
@@ -115,6 +116,8 @@ function App() {
         </Suspense>
 
         <ResultsChart></ResultsChart>
+
+        <PlayerRuns></PlayerRuns>
       </main>
     </>
   );
